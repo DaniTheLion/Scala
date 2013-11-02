@@ -1,0 +1,5 @@
+package week5
+
+object merge {
+ def merge(xs: List[Int], ys: List[Int])
+}

@@ -1,0 +1,12 @@
+package week5
+
+object listfun {
+  val nums = List(2,-4,5,7,1,8)
+	val fruits = List("apple", "pinapple", "orange", "banana") 
+
+
+
+	nums.filterNot(x => x > 0)
+
+
+}

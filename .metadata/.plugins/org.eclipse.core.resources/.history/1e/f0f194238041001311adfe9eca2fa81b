@@ -1,0 +1,39 @@
+package week5
+
+object week5 {
+  val fruit = List("apples", "oranges", "pears")
+  val nums = List(1, 2, 3)
+
+  def removeAt(n: Int, xs: List[Int]) = (xs take n) ::: (xs drop n + 1)
+
+	removeAt(1, nums)
+
+
+	def flatten(xs: List[Any]): List[Any] = xs match {
+			case List() => List()
+			case (List() :: zs) => flatten(zs)
+			case ((y::yz)::zs) => flatten(y::yz) :: flatten(zs)
+			case y :: ys => y :: flatten(ys)
+			
+			
+			
+			//case z :: zs => { z match {
+			//	case l: List[Any] => flatten(l)
+			//	case v: Any => List(v)
+			//	}
+				
+				
+		//	}
+		
+//		case Nil => List()
+//		case List() => println("List()"); flatten(xs.tail)
+//		case List(y) :: ys => println("List(y)"); y :: flatten(ys)
+//		case y :: ys => println("y :: ys"); y :: flatten(ys)
+	}
+
+	flatten(List(List(100)))
+
+	flatten(List(List(1, 1), 2, List(3, List(5, 8))))
+																		 //             >   res0: List[Any] = List(1, 1, 2, 3, 5, 8)
+
+}

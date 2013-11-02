@@ -1,0 +1,7 @@
+object week_3 {
+
+	abstract class IntSet {                   //> res0: Int(10) = 10
+		def incl(x: Int): IntSet
+		def contains(x: Int): Boolean
+	}
+}

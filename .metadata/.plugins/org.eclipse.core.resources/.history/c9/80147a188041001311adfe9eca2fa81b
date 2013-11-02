@@ -1,0 +1,53 @@
+package week5
+
+object week5 {
+  val fruit = List("apples", "oranges", "pears")  //> fruit  : List[String] = List(apples, oranges, pears)
+  val nums = List(1, 2, 3)                        //> nums  : List[Int] = List(1, 2, 3)
+
+  def removeAt(n: Int, xs: List[Int]) = (xs take n) ::: (xs drop n + 1)
+                                                  //> removeAt: (n: Int, xs: List[Int])List[Int]
+
+	removeAt(1, nums)                         //> res0: List[Int] = List(1, 3)
+
+
+	def flatten(xs: List[Any]): List[Any] = xs match {
+			case List() => List()
+			case (List() :: zs) => flatten(zs)
+			case ((y::yz)::zs) => y :: flatten(yz) :: flatten(zs)
+			
+			
+			
+			
+			//case z :: zs => { z match {
+			//	case l: List[Any] => flatten(l)
+			//	case v: Any => List(v)
+			//	}
+				
+				
+		//	}
+		
+//		case Nil => List()
+//		case List() => println("List()"); flatten(xs.tail)
+//		case List(y) :: ys => println("List(y)"); y :: flatten(ys)
+//		case y :: ys => println("y :: ys"); y :: flatten(ys)
+	}                                         //> flatten: (xs: List[Any])List[Any]
+
+	flatten(List(List(100)))                  //> res1: List[Any] = List(100, List())
+
+	flatten(List(List(1, 1), 2, List(3, List(5, 8))))
+                                                  //> scala.MatchError: List(1) (of class scala.collection.immutable.$colon$colon)
+                                                  //| 
+                                                  //| 	at week5.week5$$anonfun$main$1.flatten$1(week5.week5.scala:12)
+                                                  //| 	at week5.week5$$anonfun$main$1.flatten$1(week5.week5.scala:15)
+                                                  //| 	at week5.week5$$anonfun$main$1.apply$mcV$sp(week5.week5.scala:36)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
+                                                  //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
+                                                  //| orksheetSupport.scala:65)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
+                                                  //| ksheetSupport.scala:75)
+                                                  //| 	at week5.week5$.main(week5.week5.scala:3)
+                                                  //| 	at week5.week5.main(week5.week5.scala)
+																		 //             >   res0: List[Any] = List(1, 1, 2, 3, 5, 8)
+
+}

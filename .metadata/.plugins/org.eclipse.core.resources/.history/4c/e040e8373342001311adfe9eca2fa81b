@@ -1,0 +1,52 @@
+package week6
+
+object vector {
+	//SEQ includes vector, list, range
+	//Vector complexity:
+	//Adding an element - LOG_32(N)
+
+	val nums = Vector(1,55,3,4)
+	nums :+ 100
+
+
+	val xs = Array(1,2,3,44)
+	
+	xs map (x => x*2)
+	
+	
+	val s = "Hello World"
+	s filter(c => c.isLower)
+
+	val r: Range = 1 until 5
+	val t: Range = 1 to 5
+	
+	1 to 10 by 3
+	6 to 0 by -2
+
+	s exists (c => c.isUpper)
+	s forall (c => c.isUpper)
+	
+	val pairs = List(1,2,3) zip s
+	pairs unzip
+	
+	
+	//Applies collection-valued function f to all elements of xs and concatenates the results:
+	s flatMap (c => List('.',c))
+	
+	xs.sum
+	xs.max
+	
+	val M = 10
+	val N = 5
+	
+	//All combinations
+	(1 to M) flatMap (x => (1 to N) map (y => (x,y)))
+	def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =
+		(xs zip ys).map(xy => xy._1 * xy._2).sum
+	
+	scalarProduct(Vector(1,0,1,0), Vector(1,0,1,0))
+	
+	def isPrime(n: Int): Boolean = (2 until n).filter(x => n % x == 0)
+	
+	
+}

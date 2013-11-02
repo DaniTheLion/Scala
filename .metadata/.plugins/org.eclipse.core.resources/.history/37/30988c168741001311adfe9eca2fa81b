@@ -1,0 +1,15 @@
+package week5
+
+object high_functions {
+  def squareList(xs: List[Int]): List[Int] = xs match {
+  	case Nil => Nil
+  	case y :: ys => y * y :: ys
+  }
+  
+  
+  
+  
+  def squareList(xs: List[Int]): List[Int] = xs map y => y*y
+  
+  
+}

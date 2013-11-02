@@ -1,0 +1,16 @@
+object week_3 {
+	
+}
+
+
+abstract class IntSet {
+	def incl(x: Int): IntSet
+	def contains(x: Int): Boolean
+}
+
+
+class Emtpy extends IntSet {
+	def contains(x): Boolean = false
+
+
+}

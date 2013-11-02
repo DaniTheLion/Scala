@@ -1,0 +1,12 @@
+package week5
+
+object week5 {
+	val fruit = List("apples", "oranges", "pears")
+                                                  //> fruit  : List[String] = List(apples, oranges, pears)
+	val nums = List(1,2,3)                    //> nums  : List[Int] = List(1, 2, 3)
+
+
+def removeAt(int: n)
+
+
+}

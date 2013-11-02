@@ -1,0 +1,6 @@
+package week5
+
+object week5 {
+	val fruit = List("apples", "oranges", "pears")
+
+}

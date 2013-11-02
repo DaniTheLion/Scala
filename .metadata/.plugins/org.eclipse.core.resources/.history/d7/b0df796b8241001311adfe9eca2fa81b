@@ -1,0 +1,29 @@
+package week5
+
+object merge {
+	def msort(xs: List[Int]): List[Int] = {
+		val n = xs.length / 2
+		if ( n==0 ) xs
+		else{
+			def merge(xs: List[int], ys: List[Int]) : List[Int] = (xs,ys) match {
+				case(Nil, ys) => ys
+ 				case(xs, List()) => xs
+ 				case (x :: xsl, y :: ysl) => if (x > y) x :: y :: merge(xsl,ysl) else y :: x :: merge(xsl,ysl)
+			 }
+			val (fst,snd) = xs splitAt n
+			merge(msort(fst), msort(snd))
+		
+		}
+	}
+
+
+
+
+
+ def merge(xs: List[Int], ys: List[Int]): List[Int] =
+ (xs,ys) match {
+	case(List(), ys) => ys
+ 	case(xs, List()) => xs
+ 	case (x :: xsl, y :: ysl) => if (x > y) x :: y :: merge(xsl,ysl) else y :: x :: merge(xsl,ysl)
+ }
+}

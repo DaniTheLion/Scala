@@ -1,0 +1,5 @@
+package week5
+
+object high_functions {
+  println("Welcome to the Scala worksheet")
+}

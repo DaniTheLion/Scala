@@ -1,0 +1,35 @@
+object listFun {
+  5+5                                             //> res0: Int(10) = 10
+	val x = 1 :: 2 :: 3 :: Nil                //> x  : List[Int] = List(1, 2, 3)
+	val y = 4 :: 5 :: 6 :: Nil                //> y  : List[Int] = List(4, 5, 6)
+	val z = x ::: y                           //> z  : List[Int] = List(1, 2, 3, 4, 5, 6)
+	
+	x.tail                                    //> res1: List[Int] = List(2, 3)
+	
+	val xx = List(('c',1), ('x', 500))        //> xx  : List[(Char, Int)] = List((c,1), (x,500))
+	
+	xx.sortBy(_._2)                           //> res2: List[(Char, Int)] = List((c,1), (x,500))
+	
+	val l = List(('a', List()),('c'),('f'),('h'),('y'))
+                                                  //> l  : List[Any] = List((a,List()), c, f, h, y)
+	l.tail                                    //> res3: List[Any] = List(c, f, h, y)
+
+l.find(p => p._1 == 'a').get                      //> java.util.NoSuchElementException: None.get
+                                                  //| 	at scala.None$.get(Option.scala:313)
+                                                  //| 	at scala.None$.get(Option.scala:311)
+                                                  //| 	at listFun$$anonfun$main$1.apply$mcV$sp(listFun.scala:16)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
+                                                  //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
+                                                  //| orksheetSupport.scala:65)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
+                                                  //| ksheetSupport.scala:75)
+                                                  //| 	at listFun$.main(listFun.scala:1)
+                                                  //| 	at listFun.main(listFun.scala)
+
+	xx match {
+		case List() => 4
+	}
+	
+//  println(List(1,2,3)::Cons)
+}

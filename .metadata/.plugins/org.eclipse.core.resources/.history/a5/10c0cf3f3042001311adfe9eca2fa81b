@@ -1,0 +1,28 @@
+package week6
+
+object vector {
+	//SEQ includes vector, list, range
+	//Vector complexity:
+	//Adding an element - LOG_32(N)
+
+	val nums = Vector(1,55,3,4)
+	nums :+ 100
+
+
+	val xs = Array(1,2,3,44)
+	
+	xs map (x => x*2)
+	
+	
+	val s = "Hello Wolrd"
+	s filter(c => c.isLower)
+
+	val r: Range = 1 until 5
+	val t: Range = 1 to 5
+	
+	1 to 10 by 3
+	6 to 0 by -2
+	
+	(6 to 0 by -2) exists 4
+
+}

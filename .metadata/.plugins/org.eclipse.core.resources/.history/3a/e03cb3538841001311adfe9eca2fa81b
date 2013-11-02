@@ -1,0 +1,23 @@
+package week5
+
+object listfun {
+  val nums = List(2,-4,5,7,1,8)                   //> nums  : List[Int] = List(2, -4, 5, 7, 1, 8)
+	val fruits = List("apple", "pinapple", "orange", "banana")
+                                                  //> fruits  : List[String] = List(apple, pinapple, orange, banana)
+
+
+
+	nums.filterNot(x => x > 0)                //> res0: List[Int] = List(-4)
+
+	//super cool, return a list for which the condition holds and a list for which it doesn't.
+	nums.partition(x => x > 0)                //> res1: (List[Int], List[Int]) = (List(2, 5, 7, 1, 8),List(-4))
+
+	//longset prefix for which the predicate is true:
+	nums.takeWhile(x => x > 0)                //> res2: List[Int] = List(2)
+
+	//the remainder without the elements taken by takeWhile
+	nums.dropWhile(x => x > 0)                //> res3: List[Int] = List(-4, 5, 7, 1, 8)
+	
+	
+	nums.span(x => x > 0)
+}

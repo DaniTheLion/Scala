@@ -1,0 +1,21 @@
+object listFun {
+  5+5
+	val x = 1 :: 2 :: 3 :: Nil
+	val y = 4 :: 5 :: 6 :: Nil
+	val z = x ::: y
+	
+	x.tail
+	
+	val xx = List(('c',1), ('x', 500))
+	
+	xx.sortBy(_._2)
+	
+	val l = List('a','c','f','h','y')
+	l._1
+	
+	xx match {
+		case List() => 4
+	}
+	
+//  println(List(1,2,3)::Cons)
+}
