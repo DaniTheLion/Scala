@@ -1,7 +1,0 @@
-package week6
-
-object vector {
-	val nums = List(1,55,3,4)                 //> nums  : List[Int] = List(1, 55, 3, 4)
-	nums :+ 100                               //> res0: List[Int] = List(1, 55, 3, 4, 100)
-
-}

@@ -1,5 +1,0 @@
-package week6
-
-object vector {
-  println("Welcome to the Scala worksheet")
-}

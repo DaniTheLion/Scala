@@ -1,7 +1,0 @@
-package week6
-
-object vector {
-	val nums = Vector(1,"ds",3,4)             //> nums  : scala.collection.immutable.Vector[Int] = Vector(1, 2, 3, 4)
-	nums :+ 100                               //> res0: scala.collection.immutable.Vector[Int] = Vector(1, 2, 3, 4, 100)
-
-}

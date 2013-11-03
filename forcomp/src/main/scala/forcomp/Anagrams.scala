@@ -42,8 +42,7 @@ object Anagrams {
   /** Converts a sentence into its character occurrence list. */
   def sentenceOccurrences(s: List[String]): Occurrences = 
   	wordOccurrences(s.mkString)
-    //	s.flatMap(w => wordOccurrences(w)).groupBy(l => l._1).map(x => (x._1, x._2.length)).toList.sortBy(_._1)
-
+    
   
   
   
@@ -157,9 +156,7 @@ object Anagrams {
    *  Note: There is only one anagram of an empty sentence.
    */
   def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
-    def occurrenceAnagrams(occ: Occurrences): List[Sentence] = { 
-//      println(occ.mkString(","))
-      
+    def occurrenceAnagrams(occ: Occurrences): List[Sentence] = {      
       occ match {
       case List() => List(List())
       case _ => 
@@ -171,5 +168,4 @@ object Anagrams {
     }
     occurrenceAnagrams(sentenceOccurrences(sentence))
   }
-
 }
