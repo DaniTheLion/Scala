@@ -14,18 +14,36 @@ class AnagramsSuite extends FunSuite {
     assert(wordOccurrences("abcd") === List(('a', 1), ('b', 1), ('c', 1), ('d', 1)))
   }
 
-  test("wordOccurrences: Robert") {
-    assert(wordOccurrences("Robert") === List(('b', 1), ('e', 1), ('o', 1), ('r', 2), ('t', 1)))
+  test("wordOccurrences: Roberto") {
+    assert(wordOccurrences("Roberto") === List(('b', 1), ('e', 1), ('o', 2), ('r', 2), ('t', 1)))
   }
 
+  test("wordOccurrences: Carlos") {
+    assert(wordOccurrences("Carlos") === List(('a', 1), ('c', 1), ('l', 1), ('o', 1), ('r', 1),('s',1)))
+  }
 
+  
 
   test("sentenceOccurrences: abcd e") {
     assert(sentenceOccurrences(List("abcd", "e")) === List(('a', 1), ('b', 1), ('c', 1), ('d', 1), ('e', 1)))
   }
 
+  test("sententce occurrences: linux rulez") {
+	  assert(sentenceOccurrences(List("Linux","rulez")).toSet === Set(('l',2),('i',1),('n',1),('u',2),('x',1),('r',1),('e',1),('z',1)))
+  }
 
-
+  
+  test("sentenceOccurrences: Roberto Carlos") {
+    assert(sentenceOccurrences(List("Roberto","Carlos")) === List(('a',1), ('b',1), ('c',1), ('e',1), ('l',1), ('o',3), ('r',3), ('s',1), ('t',1)))
+  }
+  
+/*
+ * List((a,1), (b,1), (c,1), (e,1), (l,1), (o,2), (r,2), (s,1), (t,1)) did not equal 
+ * List((a,1), (b,1), (c,1), (e,1), (l,1), (o,3), (r,3), (s,1), (t,1))
+ */
+  
+  
+  
   test("dictionaryByOccurrences.get: eat") {
     assert(dictionaryByOccurrences.get(List(('a', 1), ('e', 1), ('t', 1))).map(_.toSet) === Some(Set("ate", "eat", "tea")))
   }
@@ -39,8 +57,17 @@ class AnagramsSuite extends FunSuite {
   test("word anagrams: player") {
     assert(wordAnagrams("player").toSet === Set("parley", "pearly", "player", "replay"))
   }
+  
+  
 
 
+  test("combinations: List(('a',2),('b',2))") {
+    val l = List(('a',2),('b',2))
+    assert(combinations(l).toSet === Set(List(), List(('a', 1)), List(('a', 2)), List(('b', 1)), List(('a', 1), ('b', 1)),
+    		List(('a', 2), ('b', 1)), List(('b', 2)), List(('a', 1), ('b', 2)), List(('a', 2), ('b', 2))))
+  }
+
+  
 
   test("subtract: lard - r") {
     val lard = List(('a', 1), ('d', 1), ('l', 1), ('r', 1))
