@@ -10,4 +10,11 @@ object streams {
 
 
 	// x #:: xs === Stream(x,xs)
+
+
+	val c = Vector(Vector('a','b','c'), Vector('d','e','f'), Vector('g','h'))
+                                                  //> c  : scala.collection.immutable.Vector[scala.collection.immutable.Vector[Cha
+                                                  //| r]] = Vector(Vector(a, b, c), Vector(d, e, f), Vector(g, h))
+  c(0)(0)                                         //> res2: Char = a
+
 }

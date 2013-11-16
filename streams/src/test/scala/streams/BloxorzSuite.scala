@@ -71,6 +71,15 @@ class BloxorzSuite extends FunSuite {
      }
   }
   
+//  test("from function") {
+//    new Level1 {
+////    	val l = pathsFromStart.take(6).toList
+//    	println(solution)
+//    }
+//  }
+//  
+  
+//  JSON - Java Script Object Notation
   
   test("optimal solution for level 1") {
     new Level1 {

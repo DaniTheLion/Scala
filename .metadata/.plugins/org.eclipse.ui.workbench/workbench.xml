@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
-<window height="767" maximized="true" width="1010" x="268" y="65">
+<window height="766" maximized="true" width="1000" x="81" y="58">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="304"/>
@@ -12,7 +12,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.scala-ide.sdt.core.toolbar" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -21,7 +21,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="scala.tools.eclipse.ScalaClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="scala.tools.eclipse.ScalaClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.scalaide.worksheet.editors.ScriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="scala.tools.eclipse.ScalaSourceFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -33,9 +33,9 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="2"/>
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
@@ -48,49 +48,49 @@
 </folder>
 </info>
 </editorArea>
-<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="AnagramsSuite.scala" partName="AnagramsSuite.scala" path="/home/d/code/Scala/forcomp/src/test/scala/forcomp/AnagramsSuite.scala" title="AnagramsSuite.scala" tooltip="forcomp/src/test/scala/forcomp/AnagramsSuite.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forcomp/src/test/scala/forcomp/AnagramsSuite.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="596" selectionTopPixel="86"/>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="Pouring.scala" partName="Pouring.scala" path="/home/d/code/Scala/progfun/src/week7/Pouring.scala" title="Pouring.scala" tooltip="progfun/src/week7/Pouring.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/week7/Pouring.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1327" selectionTopPixel="489"/>
 </editor>
-<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="mnomonics.sc" partName="mnomonics.sc" path="/home/d/code/Scala/progfun/src/week6/mnomonics.sc" title="mnomonics.sc" tooltip="progfun/src/week6/mnomonics.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/week6/mnomonics.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1407" selectionTopPixel="308"/>
-</editor>
-<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="Anagrams.scala" partName="Anagrams.scala" path="/home/d/code/Scala/forcomp/src/main/scala/forcomp/Anagrams.scala" title="Anagrams.scala" tooltip="forcomp/src/main/scala/forcomp/Anagrams.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forcomp/src/main/scala/forcomp/Anagrams.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6274" selectionTopPixel="2439"/>
-</editor>
-<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="mine.sc" partName="mine.sc" path="/home/d/code/Scala/progfun/src/week6/mine.sc" title="mine.sc" tooltip="progfun/src/week6/mine.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/week6/mine.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="136" selectionTopPixel="0"/>
-</editor>
-<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="bar.sc" partName="bar.sc" path="/home/d/code/Scala/Foo/bar.sc" title="bar.sc" tooltip="Foo/bar.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Foo/bar.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="34" selectionOffset="2929" selectionTopPixel="918"/>
-</editor>
-<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="package.scala" partName="package.scala" path="/home/d/code/Scala/forcomp/src/main/scala/forcomp/package.scala" title="package.scala" tooltip="forcomp/src/main/scala/forcomp/package.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forcomp/src/main/scala/forcomp/package.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="89" selectionTopPixel="0"/>
-</editor>
-<editor id="scala.tools.eclipse.ScalaClassFileEditor" name="SeqFactory.class" partName="SeqFactory.class" title="SeqFactory.class" tooltip="scala.collection.generic.SeqFactory" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Foo/\/home\/d\/Applications\/eclipse\/configuration\/org.eclipse.osgi\/bundles\/260\/1\/.cp\/lib\/scala-library.jar&lt;scala.collection.generic(SeqFactory.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1026" selectionTopPixel="221"/>
-</editor>
-<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="streams.sc" partName="streams.sc" path="/home/d/code/Scala/progfun/src/week7/streams.sc" title="streams.sc" tooltip="progfun/src/week7/streams.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/week7/streams.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="test.sc" partName="test.sc" path="/home/d/code/Scala/progfun/src/week7/test.sc" title="test.sc" tooltip="progfun/src/week7/test.sc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/week7/test.sc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="612" selectionTopPixel="0"/>
 </editor>
 <editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="Bloxorz.scala" partName="Bloxorz.scala" path="/home/d/code/Scala/streams/src/main/scala/streams/Bloxorz.scala" title="Bloxorz.scala" tooltip="streams/src/main/scala/streams/Bloxorz.scala" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/streams/src/main/scala/streams/Bloxorz.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="118" selectionOffset="127" selectionTopPixel="118"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="41"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="StringParserTerrain.scala" partName="StringParserTerrain.scala" path="/home/d/code/Scala/streams/src/main/scala/streams/StringParserTerrain.scala" title="StringParserTerrain.scala" tooltip="streams/src/main/scala/streams/StringParserTerrain.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/streams/src/main/scala/streams/StringParserTerrain.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2617" selectionTopPixel="1041"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="BloxorzSuite.scala" partName="BloxorzSuite.scala" path="/home/d/code/Scala/streams/src/test/scala/streams/BloxorzSuite.scala" title="BloxorzSuite.scala" tooltip="streams/src/test/scala/streams/BloxorzSuite.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/streams/src/test/scala/streams/BloxorzSuite.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2086" selectionTopPixel="982"/>
+</editor>
+<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="Solver.scala" partName="Solver.scala" path="/home/d/code/Scala/streams/src/main/scala/streams/Solver.scala" title="Solver.scala" tooltip="streams/src/main/scala/streams/Solver.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/streams/src/main/scala/streams/Solver.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3768" selectionTopPixel="796"/>
+</editor>
+<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="streams.sc" partName="streams.sc" path="/home/d/code/Scala/progfun/src/week7/streams.sc" title="streams.sc" tooltip="progfun/src/week7/streams.sc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/week7/streams.sc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="609" selectionTopPixel="0"/>
+</editor>
+<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="primes.sc" partName="primes.sc" path="/home/d/code/Scala/progfun/src/week7/primes.sc" title="primes.sc" tooltip="progfun/src/week7/primes.sc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/week7/primes.sc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="1676" selectionTopPixel="0"/>
 </editor>
 <editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="GameDef.scala" partName="GameDef.scala" path="/home/d/code/Scala/streams/src/main/scala/streams/GameDef.scala" title="GameDef.scala" tooltip="streams/src/main/scala/streams/GameDef.scala" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/streams/src/main/scala/streams/GameDef.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2585" selectionTopPixel="1419"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4037" selectionTopPixel="2333"/>
 </editor>
-<editor activePart="true" focus="true" id="org.scalaide.worksheet.editors.ScriptEditor" name="primes.sc" partName="primes.sc" path="/home/d/code/Scala/progfun/src/week7/primes.sc" title="primes.sc" tooltip="progfun/src/week7/primes.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/week7/primes.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1792" selectionTopPixel="289"/>
+<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="goat.sc" partName="goat.sc" path="/home/d/code/Scala/Foo/goat.sc" title="goat.sc" tooltip="Foo/goat.sc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Foo/goat.sc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.scalaide.worksheet.editors.ScriptEditor" name="test.sc" partName="test.sc" path="/home/d/code/Scala/progfun/src/test.sc" title="test.sc" tooltip="progfun/src/test.sc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/progfun/src/test.sc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="420" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -103,7 +103,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="311" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -218,8 +218,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="explorer"/>
-<info folder="true" part="problems" ratio="0.6162928" ratioLeft="522" ratioRight="325" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">
+<info folder="true" part="problems" ratio="0.58087367" ratioLeft="492" ratioRight="355" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -331,168 +331,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/forcomp/src/test/scala/forcomp/AnagramsSuite.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/forcomp/src/main/scala/forcomp/Anagrams.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/Foo/bar.sc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/progfun/src/week6/mine.sc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/progfun/src/week6/mnomonics.sc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/forcomp/src/main/scala/forcomp/Anagrams.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/forcomp/src/main/scala/forcomp/package.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/forcomp/src/test/scala/forcomp/AnagramsSuite.scala"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/progfun/src/week7/streams.sc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/streams/src/main/scala/streams/Bloxorz.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/streams/src/main/scala/streams/Solver.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/streams/src/test/scala/streams/BloxorzSuite.scala"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/streams/src/main/scala/streams/GameDef.scala"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/progfun/src/week7/primes.sc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/progfun/src/week7/streams.sc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/progfun/src/week7/Pouring.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/Foo/goat.sc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/progfun/src/test.sc"/>
 </editors>
-<item historyLabel="AnagramsSuite.scala" index="0">
-<position info="not_deleted" x="170" y="0"/>
-</item>
-<item historyLabel="Anagrams.scala" index="1">
-<position info="not_deleted" x="1570" y="0"/>
-</item>
-<item historyLabel="AnagramsSuite.scala" index="0">
-<position info="not_deleted" x="170" y="0"/>
-</item>
-<item historyLabel="Anagrams.scala" index="1">
-<position info="not_deleted" x="1570" y="0"/>
-</item>
-<item historyLabel="Anagrams.scala" index="1">
-<position info="not_deleted" x="1188" y="385"/>
-</item>
-<item historyLabel="bar.sc" index="2">
+<item historyLabel="Solver.scala" index="0">
 <position/>
 </item>
-<item historyLabel="mine.sc" index="3">
-<position info="not_deleted" x="136" y="0"/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1969" y="0"/>
 </item>
-<item historyLabel="mnomonics.sc" index="4">
-<position info="not_deleted" x="1407" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3004" y="0"/>
 </item>
-<item historyLabel="Anagrams.scala" index="5">
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1969" y="0"/>
+</item>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2957" y="0"/>
+</item>
+<item historyLabel="Solver.scala" index="0">
 <position/>
 </item>
-<item historyLabel="bar.sc" index="2">
-<position info="not_deleted" x="1262" y="0"/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1969" y="0"/>
 </item>
-<item historyLabel="Anagrams.scala" index="5">
-<position info="not_deleted" x="703" y="36"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2929" y="0"/>
 </item>
-<item historyLabel="bar.sc" index="2">
-<position info="not_deleted" x="3042" y="0"/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1969" y="0"/>
 </item>
-<item historyLabel="mine.sc" index="3">
-<position info="not_deleted" x="136" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2852" y="0"/>
 </item>
-<item historyLabel="mnomonics.sc" index="4">
-<position info="not_deleted" x="1407" y="0"/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1969" y="0"/>
 </item>
-<item historyLabel="Anagrams.scala" index="5">
-<position info="not_deleted" x="703" y="36"/>
-</item>
-<item historyLabel="Anagrams.scala" index="5">
-<position info="not_deleted" x="1595" y="0"/>
-</item>
-<item historyLabel="mnomonics.sc" index="4">
-<position info="not_deleted" x="1407" y="0"/>
-</item>
-<item historyLabel="mine.sc" index="3">
-<position info="not_deleted" x="136" y="0"/>
-</item>
-<item historyLabel="bar.sc" index="2">
-<position info="not_deleted" x="1201" y="0"/>
-</item>
-<item historyLabel="bar.sc" index="2">
-<position info="not_deleted" x="2859" y="164"/>
-</item>
-<item historyLabel="Anagrams.scala" index="5">
+<item historyLabel="Solver.scala" index="0">
 <position/>
 </item>
-<item historyLabel="mnomonics.sc" index="4">
-<position info="not_deleted" x="1407" y="0"/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1992" y="0"/>
 </item>
-<item historyLabel="mine.sc" index="3">
-<position info="not_deleted" x="136" y="0"/>
-</item>
-<item historyLabel="bar.sc" index="2">
+<item historyLabel="Solver.scala" index="0">
 <position/>
 </item>
-<item historyLabel="package.scala" index="6">
-<position info="not_deleted" x="89" y="14"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="1417" y="0"/>
 </item>
-<item historyLabel="bar.sc" index="2">
-<position/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1992" y="0"/>
 </item>
-<item historyLabel="AnagramsSuite.scala" index="7">
-<position info="not_deleted" x="170" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2675" y="1"/>
 </item>
-<item historyLabel="AnagramsSuite.scala" index="7">
-<position info="not_deleted" x="596" y="0"/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1992" y="0"/>
 </item>
-<item historyLabel="Anagrams.scala" index="5">
-<position info="not_deleted" x="1454" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2675" y="1"/>
 </item>
-<item historyLabel="AnagramsSuite.scala" index="7">
-<position info="not_deleted" x="596" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2782" y="20"/>
 </item>
-<item historyLabel="mnomonics.sc" index="4">
-<position info="not_deleted" x="1407" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="1020" y="14"/>
 </item>
-<item historyLabel="mine.sc" index="3">
-<position info="not_deleted" x="136" y="0"/>
+<item historyLabel="GameDef.scala" index="2">
+<position info="not_deleted" x="4170" y="14"/>
 </item>
-<item historyLabel="bar.sc" index="2">
-<position info="not_deleted" x="3156" y="0"/>
+<item historyLabel="GameDef.scala" index="2">
+<position info="not_deleted" x="4208" y="9"/>
 </item>
-<item historyLabel="bar.sc" index="2">
-<position info="not_deleted" x="3444" y="0"/>
+<item historyLabel="GameDef.scala" index="2">
+<position info="not_deleted" x="3813" y="9"/>
 </item>
-<item historyLabel="bar.sc" index="2">
-<position info="not_deleted" x="2929" y="34"/>
+<item historyLabel="primes.sc" index="3">
+<position info="not_deleted" x="1676" y="7"/>
 </item>
-<item historyLabel="mine.sc" index="3">
-<position info="not_deleted" x="136" y="0"/>
+<item historyLabel="streams.sc" index="4">
+<position info="not_deleted" x="609" y="0"/>
 </item>
-<item historyLabel="mnomonics.sc" index="4">
-<position info="not_deleted" x="1407" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="1020" y="14"/>
 </item>
-<item historyLabel="AnagramsSuite.scala" index="7">
-<position info="not_deleted" x="596" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2921" y="0"/>
 </item>
-<item historyLabel="Anagrams.scala" index="5">
-<position info="not_deleted" x="1490" y="0"/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1992" y="0"/>
 </item>
-<item historyLabel="streams.sc" index="8">
-<position info="not_deleted" x="257" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2815" y="0"/>
 </item>
-<item historyLabel="streams.sc" index="8">
-<position/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1992" y="0"/>
 </item>
-<item historyLabel="Bloxorz.scala" index="9">
-<position info="not_deleted" x="127" y="118"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2675" y="0"/>
 </item>
-<item historyLabel="GameDef.scala" index="10">
-<position info="not_deleted" x="2585" y="0"/>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="2025" y="0"/>
 </item>
-<item historyLabel="primes.sc" index="11">
-<position info="not_deleted" x="2591" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="2675" y="0"/>
 </item>
-<item historyLabel="primes.sc" index="11">
-<position info="not_deleted" x="360" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3374" y="0"/>
 </item>
-<item historyLabel="primes.sc" index="11">
-<position info="not_deleted" x="1809" y="0"/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3372" y="0"/>
 </item>
-<item historyLabel="primes.sc" index="11">
-<position/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3784" y="0"/>
 </item>
-<item historyLabel="primes.sc" index="11">
-<position/>
+<item historyLabel="Pouring.scala" index="5">
+<position info="not_deleted" x="1327" y="0"/>
 </item>
-<item historyLabel="primes.sc" index="11">
-<position/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3717" y="18"/>
 </item>
-<item active="true" historyLabel="primes.sc" index="11">
-<position/>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3784" y="0"/>
+</item>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3750" y="0"/>
+</item>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3784" y="0"/>
+</item>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="1956" y="2"/>
+</item>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3784" y="0"/>
+</item>
+<item historyLabel="Solver.scala" index="0">
+<position info="not_deleted" x="3768" y="0"/>
+</item>
+<item historyLabel="BloxorzSuite.scala" index="1">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="goat.sc" index="6">
+<position info="not_deleted" x="260" y="0"/>
+</item>
+<item historyLabel="goat.sc" index="6">
+<position info="not_deleted" x="15" y="0"/>
+</item>
+<item historyLabel="test.sc" index="7">
+<position info="not_deleted" x="478" y="0"/>
+</item>
+<item active="true" historyLabel="test.sc" index="7">
+<position info="not_deleted" x="357" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -511,50 +507,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="primes.sc" tooltip="progfun/src/week7/primes.sc">
-<persistable path="/progfun/src/week7/primes.sc"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="test.sc" tooltip="progfun/src/test.sc">
+<persistable path="/progfun/src/test.sc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="goat.sc" tooltip="Foo/goat.sc">
+<persistable path="/Foo/goat.sc"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="GameDef.scala" tooltip="streams/src/main/scala/streams/GameDef.scala">
 <persistable path="/streams/src/main/scala/streams/GameDef.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Bloxorz.scala" tooltip="streams/src/main/scala/streams/Bloxorz.scala">
-<persistable path="/streams/src/main/scala/streams/Bloxorz.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Anagrams.scala" tooltip="forcomp/src/main/scala/forcomp/Anagrams.scala">
+<persistable path="/forcomp/src/main/scala/forcomp/Anagrams.scala"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Lists.scala" tooltip="example/src/main/scala/example/Lists.scala">
+<persistable path="/example/src/main/scala/example/Lists.scala"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="JUnitRunner.class" tooltip="org.scalatest.junit.JUnitRunner">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=streams/lib_managed\/jars\/org.scalatest\/scalatest_2.10\/scalatest_2.10-1.9.1.jar&lt;org.scalatest.junit(JUnitRunner.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="primes.sc" tooltip="progfun/src/week7/primes.sc">
+<persistable path="/progfun/src/week7/primes.sc"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="streams.sc" tooltip="progfun/src/week7/streams.sc">
 <persistable path="/progfun/src/week7/streams.sc"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="scala.tools.eclipse.ScalaClassFileEditor" name="SeqFactory.class" tooltip="scala.collection.generic.SeqFactory">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Foo/\/home\/d\/Applications\/eclipse\/configuration\/org.eclipse.osgi\/bundles\/260\/1\/.cp\/lib\/scala-library.jar&lt;scala.collection.generic(SeqFactory.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Solver.scala" tooltip="streams/src/main/scala/streams/Solver.scala">
+<persistable path="/streams/src/main/scala/streams/Solver.scala"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FunSuite.class" tooltip="org.scalatest.FunSuite">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=forcomp/lib_managed\/jars\/org.scalatest\/scalatest_2.10\/scalatest_2.10-1.9.1.jar&lt;org.scalatest(FunSuite.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="scala.tools.eclipse.ScalaClassFileEditor" name="Function1.class" tooltip="scala.Function1">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=streams/\/home\/d\/Applications\/eclipse\/configuration\/org.eclipse.osgi\/bundles\/260\/1\/.cp\/lib\/scala-library.jar&lt;scala(Function1.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="scala.tools.eclipse.ScalaClassFileEditor" name="AbstractFunction1.class" tooltip="scala.runtime.AbstractFunction1">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Foo/\/home\/d\/Applications\/eclipse\/configuration\/org.eclipse.osgi\/bundles\/260\/1\/.cp\/lib\/scala-library.jar&lt;scala.runtime(AbstractFunction1.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="BloxorzSuite.scala" tooltip="streams/src/test/scala/streams/BloxorzSuite.scala">
+<persistable path="/streams/src/test/scala/streams/BloxorzSuite.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="package.scala" tooltip="forcomp/src/main/scala/forcomp/package.scala">
-<persistable path="/forcomp/src/main/scala/forcomp/package.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="StringParserTerrain.scala" tooltip="streams/src/main/scala/streams/StringParserTerrain.scala">
+<persistable path="/streams/src/main/scala/streams/StringParserTerrain.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="bar.sc" tooltip="Foo/bar.sc">
-<persistable path="/Foo/bar.sc"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Bloxorz.scala" tooltip="streams/src/main/scala/streams/Bloxorz.scala">
+<persistable path="/streams/src/main/scala/streams/Bloxorz.scala"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="stuff.sc" tooltip="Foo/stuff.sc">
-<persistable path="/Foo/stuff.sc"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="mine.sc" tooltip="progfun/src/week6/mine.sc">
-<persistable path="/progfun/src/week6/mine.sc"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Anagrams.scala" tooltip="forcomp/src/main/scala/forcomp/Anagrams.scala">
-<persistable path="/forcomp/src/main/scala/forcomp/Anagrams.scala"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="mnomonics.sc" tooltip="progfun/src/week6/mnomonics.sc">
-<persistable path="/progfun/src/week6/mnomonics.sc"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="AnagramsSuite.scala" tooltip="forcomp/src/test/scala/forcomp/AnagramsSuite.scala">
-<persistable path="/forcomp/src/test/scala/forcomp/AnagramsSuite.scala"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Anagrams.scala" tooltip="progfun-forcomp/src/main/scala/forcomp/Anagrams.scala">
-<persistable path="/progfun-forcomp/src/main/scala/forcomp/Anagrams.scala"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" name="test.sc" tooltip="progfun/src/week7/test.sc">
+<persistable path="/progfun/src/week7/test.sc"/>
 </file>
 </mruList>
 </workbench>
